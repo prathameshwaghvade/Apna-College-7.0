@@ -1,7 +1,3 @@
-//Primitive datatypes: byte,short,char,boolean,int,long,float,double
-//Non Primitive: String,Array,Class,Object,Interface
-
-// each datatype have a diffrent size 
 
 public class Datatypes {
     public static void main(String[] args) {
