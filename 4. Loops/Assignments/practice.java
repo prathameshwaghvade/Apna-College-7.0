@@ -2,7 +2,7 @@ import java.util.*;
 public class practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter no of selements:");
+        System.out.print("Enter no of elements:");
         int n = sc.nextInt();
         int even = 0;
         int odd = 0;
@@ -11,11 +11,11 @@ public class practice {
 
             int x = sc.nextInt();
             if(x%2==0){
-                even+=x;
+                even= even+x;
             }
 
             else{
-                odd+=x;
+                odd=odd+x;
             }
         }
 
